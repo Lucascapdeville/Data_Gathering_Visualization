@@ -1,0 +1,206 @@
+;index;id;name;country
+0;15;keoz;nicolasdgus;Belgium
+1;27;niko;nikolakovač;Bosnia and Herzegovina
+2;31;cerq;tsvetelindimitrovmangalski;Bulgaria
+3;79;oskar;tomáššťastný;Czech Republic
+4;85;twist;matějpetráš;Czech Republic
+5;91;aizy;philipaistruplarsen;Denmark
+6;95;b0rup;johannesborup;Denmark
+7;99;blamef;benjaminvangbremer;Denmark
+8;104;cadian;caspermøller;Denmark
+9;105;cajunb;renéborg;Denmark
+10;111;dev1ce;nicolaihvilshøjreedtz;Denmark
+11;115;dupreeh;peterrothmannrasmussen;Denmark
+12;116;es3tag;patrickhansen;Denmark
+13;122;gade;nicklasgade;Denmark
+14;123;gla1ve;lukasegholmrossander;Denmark
+15;132;karrigan;finnandersen;Denmark
+16;134;kjaerbye;markuskjærbye;Denmark
+17;141;lucky;philipewald;Denmark
+18;143;magisk;emilhoffmannreif;Denmark
+19;152;natosaphix;nielschristianmohrsillassen;Denmark
+20;155;niko;nikolajkristensen;Denmark
+21;174;snappi;marcopfeiffer;Denmark
+22;177;stavn;martinlund;Denmark
+23;189;valde;valdemarbjørnvangså;Denmark
+24;193;xyp9x;andreashøjsleth;Denmark
+25;206;ropz;robinkool;Estonia
+26;212;aerial;janijussila;Finland
+27;213;aleksib;aleksianttikaarlovirolainen;Finland
+28;214;allu;aleksijalli;Finland
+29;238;ottond;ottosihvo;Finland
+30;244;sergej;jeresalo;Finland
+31;249;sunny;miikkakemppi;Finland
+32;255;xseven;samilaasanen;Finland
+33;261;amanek;françoisdelaunay;France
+34;262;apex;danmadesclaire;France
+35;265;bodyy;alexandrepianaro;France
+36;278;jackz;audricjug;France
+37;283;kennys;kennyschrub;France
+38;285;kioshima;fabienfiey;France
+39;292;lucky;lucaschastang;France
+40;314;shox;richardpapillon;France
+41;323;zywoo;mathieuherbaut;France
+42;336;denis;denishowell;Germany
+43;399;tabsen;johanneswodarz;Germany
+44;401;tizian;tizianfeldbusch;Germany
+45;445;broky;helvijssaukants;Latvia
+46;458;espiranto;rokasmilasauskas;Lithuania
+47;462;kvik;aurimaskvakšys;Lithuania
+48;478;chrisj;christiaanwillemgeorgedejong;Netherlands
+49;501;jkaem;joakimmyrbostad;Norway
+50;513;rain;håvardlisetnygaard;Norway
+51;584;neo;filipboryskubski;Poland
+52;697;letn1;nestortanić;Serbia
+53;698;nexa;nemanjaisaković;Serbia
+54;707;frozen;davidčerňanský;Slovakia
+55;708;guardian;ladislavkovács;Slovakia
+56;725;alex;alejandromasanetcandela;Spain
+57;770;brollan;ludvigbrolin;Sweden
+58;778;dennis;dennisedman;Sweden
+59;786;draken;williamfantsundin;Sweden
+60;790;f0rest;patriklindberg;Sweden
+61;792;flusha;robinrönnquist;Sweden
+62;796;friberg;adamfriberg;Sweden
+63;799;golden;maikilkundaselim;Sweden
+64;814;jw;jesperwecksell;Sweden
+65;822;krimz;larsfreddyjohansson;Sweden
+66;825;lekr0;jonasolofsson;Sweden
+67;841;olofmeister;olofmarkuskajbjergustafsson;Sweden
+68;849;plopski;nicolasgonzalezzamora;Sweden
+69;856;rez;bofredriksterner;Sweden
+70;874;twist;simoneliasson;Sweden
+71;880;xizt;richardlandström;Sweden
+72;903;woxic;özgüreker;Turkey
+73;904;xantares;i̇smailсandörtkardeş;Turkey
+74;907;alex;alexandermcmeekin;United Kingdom
+75;912;dexter;jackhepple;United Kingdom
+76;935;shaney;shanesmith;United Kingdom
+77;937;smooya;owenbutterfield;United Kingdom
+78;938;surreal;kiaman;United Kingdom
+79;941;thomas;thomasutting;United Kingdom
+80;951;almazer;almazasadullin;Russia
+81;956;boombl4;kirillsergeyevichmikhaylov;Russia
+82;959;chopper;leonidvishnyakov;Russia
+83;961;davcost;vadimvasilyev;Russia
+84;968;electronic;denisrailevichsharipov;Russia
+85;972;facecrack;dmitriyalekseyev;Russia
+86;979;fl1t;evgeniylebedev;Russia
+87;980;flamie;egorsergeyevichvasilyev;Russia
+88;984;forester;igorbezotecheskiy;Russia
+89;994;hutji;pavellashkov;Russia
+90;995;idisbalance;artyomegorov;Russia
+91;1001;jame;dzhamiali;Russia
+92;1002;jerry;andreymekhryakov;Russia
+93;1008;kinqie;semyonlisitsyn;Russia
+94;1009;koshak;antonplatko;Russia
+95;1010;krad;vladislavkravchenko;Russia
+96;1020;n0rb3r7;daviddaniyelyan;Russia
+97;1030;perfecto;ilyazalutskiy;Russia
+98;1043;s0tf1k;dmitriyforostyanko;Russia
+99;1050;speed4k;antontitov;Russia
+100;1052;svyat;svyatoslavdovbakh;Russia
+101;1054;tonyblack;antonkolesnikov;Russia
+102;1062;v4d1m;vadimpanchuk;Russia
+103;1068;xsepower;bogdanchernikov;Russia
+104;1094;coldyy1;pavloveklenko;Ukraine
+105;1096;crush;ihorshevchenko;Ukraine
+106;1100;edward;ioannsukhariev;Ukraine
+107;1109;jr;dmytrochervak;Ukraine
+108;1123;s1mple;oleksandrolehovychkostyliev;Ukraine
+109;1144;t0rick;maksimzaikin;Azerbaijan
+110;1146;adren;däurenqystaubaev;Kazakhstan
+111;1148;buster;timurtulepov;Kazakhstan
+112;1152;fitch;baqtiarbaqytov;Kazakhstan
+113;1153;hobbit;abaihasenov;Kazakhstan
+114;1157;krizzen;aidynerbolūlytūrlybekov;Kazakhstan
+115;1161;nealan;sanjari̇shakov;Kazakhstan
+116;1162;qikert;alekseigolubev;Kazakhstan
+117;1169;sanji;sanjarkuliev;Uzbekistan
+118;1173;daps;damiansteele;Canada
+119;1186;naf;keithjordanmarkovic;Canada
+120;1188;stanislaw;peterstanisławjarguz;Canada
+121;1189;twistzz;russeldavidkevinvandulken;Canada
+122;1193;adren;erichoag;United States
+123;1196;autimatic;timothyta;United States
+124;1200;brehze;vincentcayonte;United States
+125;1218;elige;jonathandavidjablonowski;United States
+126;1222;floppy;rickykemery;United States
+127;1246;motm;ianhardy;United States
+128;1249;nitr0;nicholascannella;United States
+129;1251;obo;owenschlatter;United States
+130;1252;osee;joshuaohm;United States
+131;1260;rush;williamthomaswierzba;United States
+132;1269;stewie2k;jackyyip;United States
+133;1272;tarik;tarikcelik;United States
+134;1315;art;andreifelipepiovezanmachado;Brazil
+135;1317;biguzera;rodrigobittencourt;Brazil
+136;1321;boltz;ricardodesouzaprass;Brazil
+137;1335;coldzera;marceloaugustodavid;Brazil
+138;1339;delboni;felipedelboni;Brazil
+139;1350;dumau;eduardowolkmer;Brazil
+140;1352;exit;raphaellacerda;Brazil
+141;1353;f4stzin;arthurschmitt;Brazil
+142;1354;fallen;gabrieltoledodealcântarasguario;Brazil
+143;1357;felps;joãocabralvasconcellos;Brazil
+144;1358;fer;fernandoalvarenga;Brazil
+145;1371;hardzao;wesleylopes;Brazil
+146;1372;hen1;henriquetelesferreiradafonseca;Brazil
+147;1377;idk;victortorraca;Brazil
+148;1380;jnt;jhonatansilvamoura;Brazil
+149;1389;khtex;dennerbarchfield;Brazil
+150;1391;kscerato;kaikesilvacerato;Brazil
+151;1393;land1n;paulofelipe;Brazil
+152;1401;lucas1;lucastelesferreiradafonseca;Brazil
+153;1417;nekiz;gabrielschenato;Brazil
+154;1425;pkl;vinícioscoelho;Brazil
+155;1427;prt;matheusscuvero;Brazil
+156;1446;steel;lucasbeneditolopes;Brazil
+157;1449;taco;epitáciopessoademelofilho;Brazil
+158;1450;tatazin;alefpereira;Brazil
+159;1452;tge;gustavomotta;Brazil
+160;1453;tiburci0;andrérossetto;Brazil
+161;1456;tuurtle;matheusmarquesanhaia;Brazil
+162;1458;v$m;viniciusmoreira;Brazil
+163;1459;vini;viniciusdealmeidafigueiredo;Brazil
+164;1469;yuurih;yurigomesdossantosboian;Brazil
+165;1502;luken;lucanadotti;Argentina
+166;1504;meyern;ignacionaimmeyer;Argentina
+167;1545;azr;aaronchristiancharlesward;Australia
+168;1554;dexter;christophernong;Australia
+169;1562;ins;joshuapotter;Australia
+170;1565;jks;justinsavage;Australia
+171;1567;liazz;johnjamestregillgas;Australia
+172;1570;malta;liamschembri;Australia
+173;1580;rickeh;ricardomulholland;Australia
+174;1581;savage;jamessavage;Australia
+175;1596;gratisfaction;seandavidandrekaiwai;New Zealand
+176;1599;sico;simonwilliams;New Zealand
+177;1600;sterling;euanmoore;New Zealand
+178;1605;advent;liangzhuo;China
+179;1609;attacker;yuanzhangsheng;China
+180;1610;auman;liuzhihong;China
+181;1611;ayaya;yangyangzheng;China
+182;1614;bottle;leimao;China
+183;1623;destroyer;jiaminggu;China
+184;1626;expro;hengyang;China
+185;1628;flying;peiqisong;China
+186;1633;jamyoung;yiyang;China
+187;1659;savage;binliu;China
+188;1660;shuadapai;weiwang;China
+189;1662;slowly;kelunsun;China
+190;1669;summer;yuluncai;China
+191;1671;tb;bingyuanli;China
+192;1672;unicorn;shunjieding;China
+193;1673;viva;lifanran;China
+194;1678;xiaosage;pengsong;China
+195;1682;zhoking;zhongweijie;China
+196;1684;xign;leehyun;South Korea
+197;1691;erkast;erdenetsogtgantulga;Mongolia
+198;1732;bntet;hanselferdinand;Indonesia
+199;1734;xccurate;kevinsusanto;Indonesia
+200;1737;kaze;andrewkhongwengkeong;Malaysia
+201;1741;marek;tzu;Taiwan
+202;1747;freeman;wingheicheung;Hong Kong
+203;1811;jt;ioannistheodosiou;South Africa
+204;1819;sonic;arangroesbeek;South Africa
