@@ -1,0 +1,737 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0812.0353                               -->
+<workbook original-version='18.1' source-build='2022.2.1 (20222.22.0812.0353)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='tournaments_2019_df_lat_long.csv+ (Multiple Connections)' inline='true' name='federated.1a9cf1h0i35fxq0zodqup1ni7gh4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='players_2019_lat_long' name='textscan.09iatof0whz7vc14q7jpz1rx9kaa'>
+            <connection class='textscan' directory='C:/Users/Botelho/OneDrive/Documentos/Ironhack/Projetos/Data_Gathering_Visualization' filename='players_2019_lat_long.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='tournaments_2019_df_lat_long' name='textscan.0fobnr30fgg9j012f2mde1g5n5gl'>
+            <connection class='textscan' directory='C:/Users/Botelho/OneDrive/Documentos/Ironhack/Projetos/Data_Gathering_Visualization' filename='tournaments_2019_df_lat_long.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0fobnr30fgg9j012f2mde1g5n5gl' name='players_2019_lat_long.csv' table='[players_2019_lat_long#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='pt_BR'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='id' ordinal='1' />
+            <column datatype='string' name='name' ordinal='2' />
+            <column datatype='string' name='country' ordinal='3' />
+            <column datatype='real' name='Latitude (generated)' ordinal='4' />
+            <column datatype='real' name='Longitude (generated)' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.0fobnr30fgg9j012f2mde1g5n5gl' name='tournaments_2019_df_lat_long.csv' table='[tournaments_2019_df_lat_long#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='pt_BR' separator=';'>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='tournament' ordinal='1' />
+              <column datatype='date' name='date' ordinal='2' />
+              <column datatype='string' name='prize' ordinal='3' />
+              <column datatype='integer' name='teams_no' ordinal='4' />
+              <column datatype='string' name='host_locaion' ordinal='5' />
+              <column datatype='string' name='event_locaion' ordinal='6' />
+              <column datatype='string' name='first_place' ordinal='7' />
+              <column datatype='string' name='second_place' ordinal='8' />
+              <column datatype='string' name='Host Location' ordinal='9' />
+              <column datatype='real' name='Latitude (generated)' ordinal='10' />
+              <column datatype='real' name='Longitude (generated)' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0fobnr30fgg9j012f2mde1g5n5gl' name='tournaments_players.csv' table='[tournaments_players#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='pt_BR' separator=';'>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='tournament' ordinal='1' />
+              <column datatype='string' name='player' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0fobnr30fgg9j012f2mde1g5n5gl' name='players_2019_lat_long.csv' table='[players_2019_lat_long#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='pt_BR'>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='id' ordinal='1' />
+              <column datatype='string' name='name' ordinal='2' />
+              <column datatype='string' name='country' ordinal='3' />
+              <column datatype='real' name='Latitude (generated)' ordinal='4' />
+              <column datatype='real' name='Longitude (generated)' ordinal='5' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[F1 (players_2019_lat_long.csv)]' value='[players_2019_lat_long.csv].[F1]' />
+          <map key='[F1 (tournaments_players.csv)]' value='[tournaments_players.csv].[F1]' />
+          <map key='[F1]' value='[tournaments_2019_df_lat_long.csv].[F1]' />
+          <map key='[Host Location]' value='[tournaments_2019_df_lat_long.csv].[Host Location]' />
+          <map key='[Latitude (generated) (players_2019_lat_long.csv)]' value='[players_2019_lat_long.csv].[Latitude (generated)]' />
+          <map key='[Latitude (generated)]' value='[tournaments_2019_df_lat_long.csv].[Latitude (generated)]' />
+          <map key='[Longitude (generated) (players_2019_lat_long.csv)]' value='[players_2019_lat_long.csv].[Longitude (generated)]' />
+          <map key='[Longitude (generated)]' value='[tournaments_2019_df_lat_long.csv].[Longitude (generated)]' />
+          <map key='[country]' value='[players_2019_lat_long.csv].[country]' />
+          <map key='[date]' value='[tournaments_2019_df_lat_long.csv].[date]' />
+          <map key='[event_locaion]' value='[tournaments_2019_df_lat_long.csv].[event_locaion]' />
+          <map key='[first_place]' value='[tournaments_2019_df_lat_long.csv].[first_place]' />
+          <map key='[host_locaion]' value='[tournaments_2019_df_lat_long.csv].[host_locaion]' />
+          <map key='[id]' value='[players_2019_lat_long.csv].[id]' />
+          <map key='[name]' value='[players_2019_lat_long.csv].[name]' />
+          <map key='[player]' value='[tournaments_players.csv].[player]' />
+          <map key='[prize]' value='[tournaments_2019_df_lat_long.csv].[prize]' />
+          <map key='[second_place]' value='[tournaments_2019_df_lat_long.csv].[second_place]' />
+          <map key='[teams_no]' value='[tournaments_2019_df_lat_long.csv].[teams_no]' />
+          <map key='[tournament (tournaments_players.csv)]' value='[tournaments_players.csv].[tournament]' />
+          <map key='[tournament]' value='[tournaments_2019_df_lat_long.csv].[tournament]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;pt_BR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;R$&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;pt_BR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tournament</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tournament]</local-name>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias>tournament</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prize</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[prize]</local-name>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias>prize</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teams_no</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teams_no]</local-name>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias>teams_no</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>host_locaion</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[host_locaion]</local-name>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias>host_locaion</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>event_locaion</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[event_locaion]</local-name>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias>event_locaion</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>first_place</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[first_place]</local-name>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias>first_place</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>second_place</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[second_place]</local-name>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias>second_place</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Host Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Host Location]</local-name>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias>Host Location</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude (generated)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude (generated)]</local-name>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias>Latitude (generated)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude (generated)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude (generated)]</local-name>
+            <parent-name>[tournaments_2019_df_lat_long.csv]</parent-name>
+            <remote-alias>Longitude (generated)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tournaments_players.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;pt_BR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;R$&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;pt_BR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (tournaments_players.csv)]</local-name>
+            <parent-name>[tournaments_players.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tournament</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tournament (tournaments_players.csv)]</local-name>
+            <parent-name>[tournaments_players.csv]</parent-name>
+            <remote-alias>tournament</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[player]</local-name>
+            <parent-name>[tournaments_players.csv]</parent-name>
+            <remote-alias>player</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[players_2019_lat_long.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;pt_BR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;R$&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;pt_BR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (players_2019_lat_long.csv)]</local-name>
+            <parent-name>[players_2019_lat_long.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[players_2019_lat_long.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[players_2019_lat_long.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[players_2019_lat_long.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude (generated)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude (generated) (players_2019_lat_long.csv)]</local-name>
+            <parent-name>[players_2019_lat_long.csv]</parent-name>
+            <remote-alias>Latitude (generated)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude (generated)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude (generated) (players_2019_lat_long.csv)]</local-name>
+            <parent-name>[players_2019_lat_long.csv]</parent-name>
+            <remote-alias>Longitude (generated)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Avg' caption='F1 (players 2019 lat long.csv)' datatype='integer' hidden='true' name='[F1 (players_2019_lat_long.csv)]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='F1 (tournaments players.csv)' datatype='integer' hidden='true' name='[F1 (tournaments_players.csv)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <column caption='Latitude Players' datatype='real' name='[Latitude (generated) (players_2019_lat_long.csv)]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Latitude Tournaments' datatype='real' name='[Latitude (generated)]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Longitude Players' datatype='real' name='[Longitude (generated) (players_2019_lat_long.csv)]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude Tournaments' datatype='real' name='[Longitude (generated)]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='players_2019_lat_long.csv' datatype='table' name='[__tableau_internal_object_id__].[players_2019_lat_long.csv_D8AA2E4AB99E45A482A38D245FB0F52D]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='tournaments_2019_df_lat_long.csv' datatype='table' name='[__tableau_internal_object_id__].[tournaments_2019_df_lat_long.csv_F429B8CD47BF49D78A932F5FB04036B0]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='tournaments_players.csv' datatype='table' name='[__tableau_internal_object_id__].[tournaments_players.csv_0F997DD2ABEB44189B408071DAEF65CD]' role='measure' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Event Locaion' datatype='string' name='[event_locaion]' role='dimension' type='nominal' />
+      <column caption='First Place' datatype='string' name='[first_place]' role='dimension' type='nominal' />
+      <column caption='Host Locaion' datatype='string' name='[host_locaion]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='string' name='[id]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Prize' datatype='string' name='[prize]' role='dimension' type='nominal' />
+      <column caption='Second Place' datatype='string' name='[second_place]' role='dimension' type='nominal' />
+      <column caption='Teams No' datatype='integer' name='[teams_no]' role='measure' type='quantitative' />
+      <column caption='Tournament' datatype='string' name='[tournament]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brazil&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='players_2019_lat_long.csv' id='players_2019_lat_long.csv_D8AA2E4AB99E45A482A38D245FB0F52D'>
+            <properties context=''>
+              <relation connection='textscan.0fobnr30fgg9j012f2mde1g5n5gl' name='players_2019_lat_long.csv' table='[players_2019_lat_long#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='pt_BR'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='id' ordinal='1' />
+                  <column datatype='string' name='name' ordinal='2' />
+                  <column datatype='string' name='country' ordinal='3' />
+                  <column datatype='real' name='Latitude (generated)' ordinal='4' />
+                  <column datatype='real' name='Longitude (generated)' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='tournaments_2019_df_lat_long.csv' id='tournaments_2019_df_lat_long.csv_F429B8CD47BF49D78A932F5FB04036B0'>
+            <properties context=''>
+              <relation connection='textscan.0fobnr30fgg9j012f2mde1g5n5gl' name='tournaments_2019_df_lat_long.csv' table='[tournaments_2019_df_lat_long#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='pt_BR' separator=';'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='tournament' ordinal='1' />
+                  <column datatype='date' name='date' ordinal='2' />
+                  <column datatype='string' name='prize' ordinal='3' />
+                  <column datatype='integer' name='teams_no' ordinal='4' />
+                  <column datatype='string' name='host_locaion' ordinal='5' />
+                  <column datatype='string' name='event_locaion' ordinal='6' />
+                  <column datatype='string' name='first_place' ordinal='7' />
+                  <column datatype='string' name='second_place' ordinal='8' />
+                  <column datatype='string' name='Host Location' ordinal='9' />
+                  <column datatype='real' name='Latitude (generated)' ordinal='10' />
+                  <column datatype='real' name='Longitude (generated)' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='tournaments_players.csv' id='tournaments_players.csv_0F997DD2ABEB44189B408071DAEF65CD'>
+            <properties context=''>
+              <relation connection='textscan.0fobnr30fgg9j012f2mde1g5n5gl' name='tournaments_players.csv' table='[tournaments_players#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='pt_BR' separator=';'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='tournament' ordinal='1' />
+                  <column datatype='string' name='player' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[F1 (tournaments_players.csv)]' />
+              <expression op='[F1 (players_2019_lat_long.csv)]' />
+            </expression>
+            <first-end-point object-id='tournaments_players.csv_0F997DD2ABEB44189B408071DAEF65CD' />
+            <second-end-point object-id='players_2019_lat_long.csv_D8AA2E4AB99E45A482A38D245FB0F52D' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[F1]' />
+              <expression op='[F1 (tournaments_players.csv)]' />
+            </expression>
+            <first-end-point object-id='tournaments_2019_df_lat_long.csv_F429B8CD47BF49D78A932F5FB04036B0' />
+            <second-end-point object-id='tournaments_players.csv_0F997DD2ABEB44189B408071DAEF65CD' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tournaments_2019_df_lat_long.csv+ (Multiple Connections)' name='federated.1a9cf1h0i35fxq0zodqup1ni7gh4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1a9cf1h0i35fxq0zodqup1ni7gh4'>
+            <_.fcp.ObjectModelTableType.false...column caption='players_2019_lat_long.csv' datatype='integer' name='[__tableau_internal_object_id__].[players_2019_lat_long.csv_D8AA2E4AB99E45A482A38D245FB0F52D]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[players_2019_lat_long.csv_D8AA2E4AB99E45A482A38D245FB0F52D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:players_2019_lat_long.csv_D8AA2E4AB99E45A482A38D245FB0F52D:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='players_2019_lat_long.csv' datatype='table' name='[__tableau_internal_object_id__].[players_2019_lat_long.csv_D8AA2E4AB99E45A482A38D245FB0F52D]' role='measure' type='quantitative' />
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1a9cf1h0i35fxq0zodqup1ni7gh4].[none:country:nk]</rows>
+        <cols>[federated.1a9cf1h0i35fxq0zodqup1ni7gh4].[__tableau_internal_object_id__].[cnt:players_2019_lat_long.csv_D8AA2E4AB99E45A482A38D245FB0F52D:qk]</cols>
+      </table>
+      <simple-id uuid='{5A2A1B0E-74D6-4C1E-8070-E914B655C88C}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1a9cf1h0i35fxq0zodqup1ni7gh4].[none:country:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9CA8867F-D850-4AC2-9295-00EA7E915131}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      YII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

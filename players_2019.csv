@@ -1,0 +1,206 @@
+;id;name;country
+0;keoz;nicolasdgus;Belgium
+1;niko;nikolakovač;Bosnia and Herzegovina
+2;cerq;tsvetelindimitrovmangalski;Bulgaria
+3;oskar;tomáššťastný;Czech Republic
+4;twist;matějpetráš;Czech Republic
+5;aizy;philipaistruplarsen;Denmark
+6;b0rup;johannesborup;Denmark
+7;blamef;benjaminvangbremer;Denmark
+8;cadian;caspermøller;Denmark
+9;cajunb;renéborg;Denmark
+10;dev1ce;nicolaihvilshøjreedtz;Denmark
+11;dupreeh;peterrothmannrasmussen;Denmark
+12;es3tag;patrickhansen;Denmark
+13;gade;nicklasgade;Denmark
+14;gla1ve;lukasegholmrossander;Denmark
+15;karrigan;finnandersen;Denmark
+16;kjaerbye;markuskjærbye;Denmark
+17;lucky;philipewald;Denmark
+18;magisk;emilhoffmannreif;Denmark
+19;natosaphix;nielschristianmohrsillassen;Denmark
+20;niko;nikolajkristensen;Denmark
+21;snappi;marcopfeiffer;Denmark
+22;stavn;martinlund;Denmark
+23;valde;valdemarbjørnvangså;Denmark
+24;xyp9x;andreashøjsleth;Denmark
+25;ropz;robinkool;Estonia
+26;aerial;janijussila;Finland
+27;aleksib;aleksianttikaarlovirolainen;Finland
+28;allu;aleksijalli;Finland
+29;ottond;ottosihvo;Finland
+30;sergej;jeresalo;Finland
+31;sunny;miikkakemppi;Finland
+32;xseven;samilaasanen;Finland
+33;amanek;françoisdelaunay;France
+34;apex;danmadesclaire;France
+35;bodyy;alexandrepianaro;France
+36;jackz;audricjug;France
+37;kennys;kennyschrub;France
+38;kioshima;fabienfiey;France
+39;lucky;lucaschastang;France
+40;shox;richardpapillon;France
+41;zywoo;mathieuherbaut;France
+42;denis;denishowell;Germany
+43;tabsen;johanneswodarz;Germany
+44;tizian;tizianfeldbusch;Germany
+45;broky;helvijssaukants;Latvia
+46;espiranto;rokasmilasauskas;Lithuania
+47;kvik;aurimaskvakšys;Lithuania
+48;chrisj;christiaanwillemgeorgedejong;Netherlands
+49;jkaem;joakimmyrbostad;Norway
+50;rain;håvardlisetnygaard;Norway
+51;neo;filipboryskubski;Poland
+52;letn1;nestortanić;Serbia
+53;nexa;nemanjaisaković;Serbia
+54;frozen;davidčerňanský;Slovakia
+55;guardian;ladislavkovács;Slovakia
+56;alex;alejandromasanetcandela;Spain
+57;brollan;ludvigbrolin;Sweden
+58;dennis;dennisedman;Sweden
+59;draken;williamfantsundin;Sweden
+60;f0rest;patriklindberg;Sweden
+61;flusha;robinrönnquist;Sweden
+62;friberg;adamfriberg;Sweden
+63;golden;maikilkundaselim;Sweden
+64;jw;jesperwecksell;Sweden
+65;krimz;larsfreddyjohansson;Sweden
+66;lekr0;jonasolofsson;Sweden
+67;olofmeister;olofmarkuskajbjergustafsson;Sweden
+68;plopski;nicolasgonzalezzamora;Sweden
+69;rez;bofredriksterner;Sweden
+70;twist;simoneliasson;Sweden
+71;xizt;richardlandström;Sweden
+72;woxic;özgüreker;Turkey
+73;xantares;i̇smailсandörtkardeş;Turkey
+74;alex;alexandermcmeekin;United Kingdom
+75;dexter;jackhepple;United Kingdom
+76;shaney;shanesmith;United Kingdom
+77;smooya;owenbutterfield;United Kingdom
+78;surreal;kiaman;United Kingdom
+79;thomas;thomasutting;United Kingdom
+80;almazer;almazasadullin;Russia
+81;boombl4;kirillsergeyevichmikhaylov;Russia
+82;chopper;leonidvishnyakov;Russia
+83;davcost;vadimvasilyev;Russia
+84;electronic;denisrailevichsharipov;Russia
+85;facecrack;dmitriyalekseyev;Russia
+86;fl1t;evgeniylebedev;Russia
+87;flamie;egorsergeyevichvasilyev;Russia
+88;forester;igorbezotecheskiy;Russia
+89;hutji;pavellashkov;Russia
+90;idisbalance;artyomegorov;Russia
+91;jame;dzhamiali;Russia
+92;jerry;andreymekhryakov;Russia
+93;kinqie;semyonlisitsyn;Russia
+94;koshak;antonplatko;Russia
+95;krad;vladislavkravchenko;Russia
+96;n0rb3r7;daviddaniyelyan;Russia
+97;perfecto;ilyazalutskiy;Russia
+98;s0tf1k;dmitriyforostyanko;Russia
+99;speed4k;antontitov;Russia
+100;svyat;svyatoslavdovbakh;Russia
+101;tonyblack;antonkolesnikov;Russia
+102;v4d1m;vadimpanchuk;Russia
+103;xsepower;bogdanchernikov;Russia
+104;coldyy1;pavloveklenko;Ukraine
+105;crush;ihorshevchenko;Ukraine
+106;edward;ioannsukhariev;Ukraine
+107;jr;dmytrochervak;Ukraine
+108;s1mple;oleksandrolehovychkostyliev;Ukraine
+109;t0rick;maksimzaikin;Azerbaijan
+110;adren;däurenqystaubaev;Kazakhstan
+111;buster;timurtulepov;Kazakhstan
+112;fitch;baqtiarbaqytov;Kazakhstan
+113;hobbit;abaihasenov;Kazakhstan
+114;krizzen;aidynerbolūlytūrlybekov;Kazakhstan
+115;nealan;sanjari̇shakov;Kazakhstan
+116;qikert;alekseigolubev;Kazakhstan
+117;sanji;sanjarkuliev;Uzbekistan
+118;daps;damiansteele;Canada
+119;naf;keithjordanmarkovic;Canada
+120;stanislaw;peterstanisławjarguz;Canada
+121;twistzz;russeldavidkevinvandulken;Canada
+122;adren;erichoag;United States
+123;autimatic;timothyta;United States
+124;brehze;vincentcayonte;United States
+125;elige;jonathandavidjablonowski;United States
+126;floppy;rickykemery;United States
+127;motm;ianhardy;United States
+128;nitr0;nicholascannella;United States
+129;obo;owenschlatter;United States
+130;osee;joshuaohm;United States
+131;rush;williamthomaswierzba;United States
+132;stewie2k;jackyyip;United States
+133;tarik;tarikcelik;United States
+134;art;andreifelipepiovezanmachado;Brazil
+135;biguzera;rodrigobittencourt;Brazil
+136;boltz;ricardodesouzaprass;Brazil
+137;coldzera;marceloaugustodavid;Brazil
+138;delboni;felipedelboni;Brazil
+139;dumau;eduardowolkmer;Brazil
+140;exit;raphaellacerda;Brazil
+141;f4stzin;arthurschmitt;Brazil
+142;fallen;gabrieltoledodealcântarasguario;Brazil
+143;felps;joãocabralvasconcellos;Brazil
+144;fer;fernandoalvarenga;Brazil
+145;hardzao;wesleylopes;Brazil
+146;hen1;henriquetelesferreiradafonseca;Brazil
+147;idk;victortorraca;Brazil
+148;jnt;jhonatansilvamoura;Brazil
+149;khtex;dennerbarchfield;Brazil
+150;kscerato;kaikesilvacerato;Brazil
+151;land1n;paulofelipe;Brazil
+152;lucas1;lucastelesferreiradafonseca;Brazil
+153;nekiz;gabrielschenato;Brazil
+154;pkl;vinícioscoelho;Brazil
+155;prt;matheusscuvero;Brazil
+156;steel;lucasbeneditolopes;Brazil
+157;taco;epitáciopessoademelofilho;Brazil
+158;tatazin;alefpereira;Brazil
+159;tge;gustavomotta;Brazil
+160;tiburci0;andrérossetto;Brazil
+161;tuurtle;matheusmarquesanhaia;Brazil
+162;v$m;viniciusmoreira;Brazil
+163;vini;viniciusdealmeidafigueiredo;Brazil
+164;yuurih;yurigomesdossantosboian;Brazil
+165;luken;lucanadotti;Argentina
+166;meyern;ignacionaimmeyer;Argentina
+167;azr;aaronchristiancharlesward;Australia
+168;dexter;christophernong;Australia
+169;ins;joshuapotter;Australia
+170;jks;justinsavage;Australia
+171;liazz;johnjamestregillgas;Australia
+172;malta;liamschembri;Australia
+173;rickeh;ricardomulholland;Australia
+174;savage;jamessavage;Australia
+175;gratisfaction;seandavidandrekaiwai;New Zealand
+176;sico;simonwilliams;New Zealand
+177;sterling;euanmoore;New Zealand
+178;advent;liangzhuo;China
+179;attacker;yuanzhangsheng;China
+180;auman;liuzhihong;China
+181;ayaya;yangyangzheng;China
+182;bottle;leimao;China
+183;destroyer;jiaminggu;China
+184;expro;hengyang;China
+185;flying;peiqisong;China
+186;jamyoung;yiyang;China
+187;savage;binliu;China
+188;shuadapai;weiwang;China
+189;slowly;kelunsun;China
+190;summer;yuluncai;China
+191;tb;bingyuanli;China
+192;unicorn;shunjieding;China
+193;viva;lifanran;China
+194;xiaosage;pengsong;China
+195;zhoking;zhongweijie;China
+196;xign;leehyun;South Korea
+197;erkast;erdenetsogtgantulga;Mongolia
+198;bntet;hanselferdinand;Indonesia
+199;xccurate;kevinsusanto;Indonesia
+200;kaze;andrewkhongwengkeong;Malaysia
+201;marek;tzu;Taiwan
+202;freeman;wingheicheung;Hong Kong
+203;jt;ioannistheodosiou;South Africa
+204;sonic;arangroesbeek;South Africa
