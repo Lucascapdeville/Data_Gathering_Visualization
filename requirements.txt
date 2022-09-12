@@ -1,0 +1,5 @@
+pymediawiki==0.7.1
+regex
+pandas
+liquipediapy==2.1.0
+numpy
