@@ -28,6 +28,7 @@ Create a Data visualization to better understand the data
 ## Methods
 ### API 
 Liquipediaapy(https://github.com/c00kie17/liquipediapy)
+
 Mediawiki(https://github.com/barrust/mediawiki)
 ### Technologies
 pandas
