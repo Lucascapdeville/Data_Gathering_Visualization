@@ -145,14 +145,6 @@ dmypy.json
 cython_debug/
 
 
-
-#dir_to_ignore
-/tableu
-.tableu
-tableu/
-git rm --cached tableu/
-
-
 # PyCharm
 #  JetBrains specific template is maintainted in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore

@@ -60,10 +60,8 @@ The players and their country of origin
 # Conclusion
 With the data gathered is easily that there is 2 major oportunities of tournament development.
 
-The first one is in the baltic region,with 24 players comming from these region and a huge history of competitive gamming.
-
-Is a no brainer place to invest in a big tournament
-
-The second one is Brazil with 31 players comming from this region is expected to have a huge pent up demand.
+The first one is Brazil with 31 players comming from this region is expected to have a huge pent up demand.
 
 Another point that helps Brazil's case to receive a S-Tier tournament is the pent up demmand that the basilian community since there was never a S-Tier tournament in the CSGO era
+
+The second one is a smaller oportunity but the oceanic region has a potential
