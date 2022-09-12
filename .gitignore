@@ -153,3 +153,4 @@ cython_debug/
 
 
 dir_to_ignore/tableu
+/tableu
