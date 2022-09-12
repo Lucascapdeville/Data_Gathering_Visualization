@@ -10,7 +10,7 @@ CS:GO is the latest successor of the counterstrike franchise developed by Valve 
 
 The competitive scene has existed since the release of the game and has already payout more than 100M dollars in more than 6000 tournaments around the world.
 
-In 2019 more than 24M dollars distributed in prizes in more than 300 tournaments.
+In 2019 more than 24M dollars were distributed in prizes in more than 300 tournaments.
 ## Liquipedia
 Liquipedia is a wike style site that follows a multitude of games and has been cataloging gaming related content since the 2009.
 
